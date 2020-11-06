@@ -32,9 +32,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp ESC    &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5         &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp BKSP
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans
-   &kp LSFT   &trans       &trans       &trans       &trans       &trans            &trans    &trans    &trans    &trans    &trans    &trans
+   &kp DEL    &kp BANG    &kp ATSN    &kp HASH    &kp CURU    &kp PRCT         &kp CRRT &kp AMPS &kp KMLT &kp LPRN &kp RPRN &trans
+   &trans     &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5         &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
+   &trans     &trans       &trans       &trans       &trans       &trans            &trans    &trans    &trans    &trans    &trans    &trans
                                         &kp LGUI     &trans       &kp SPC           &kp RET &trans &kp RALT
                         >;
                 };
@@ -45,6 +45,7 @@
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
 //                    | GUI |     | SPC |   | ENT |     | ALT |
+// &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans
                         bindings = <
    &kp  ESC &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT    &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN &kp BKSP
    &kp LCTL &trans    &trans    &trans    &trans    &trans      &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &kp GRAV
