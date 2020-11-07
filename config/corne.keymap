@@ -32,10 +32,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp DEL    &kp BANG    &kp ATSN    &kp HASH    &kp CURU    &kp PRCT         &kp CRRT &kp AMPS &kp KMLT &kp LPRN &kp RPRN &trans
-   &trans     &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5         &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
-   &trans     &trans       &trans       &trans       &trans       &trans            &trans    &trans    &trans    &trans    &trans    &trans
-                                        &kp LGUI     &trans       &kp SPC           &kp RET &trans &kp RALT
+   &kp DEL    &kp BANG     &kp AT     &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET &kp AMPS  &kp STAR  &kp LPRN  &kp RPRN  &trans
+   &trans     &kp N1       &kp N2     &kp N3       &kp N4       &kp N5            &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &trans
+   &trans     &kp TILDE    &kp GRAVE  &kp PIPE     &kp BSLH     &trans            &trans    &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans
+                                      &trans       &trans       &trans            &trans &trans &trans
                         >;
                 };
 
