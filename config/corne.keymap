@@ -8,22 +8,26 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT 0
+#define SYMBOL 1
+#define COMMAND 2
+
 / {
         keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
                         bindings = <
-   &kp BACKSPACE &kp Q &kp W &kp E &kp R     &kp T       &kp Y     &kp U     &kp I     &kp O   &kp P    &kp TAB
-   &kp LMETA     &kp A &kp S &kp D &kp F     &kp G       &kp H     &kp J     &kp K     &kp L   &kp SCLN &kp QUOT
-   &kp LCTL      &kp Z &kp X &kp C &kp V     &kp B       &kp N     &kp M     &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                             &mo 1 &kp RET   &kp LSHFT   &kp RSHFT &kp SPACE &mo 1
+   &kp BACKSPACE &kp Q &kp W &kp E      &kp R             &kp T       &kp Y     &kp U     &kp I     &kp O   &kp P    &kp TAB
+   &kp LMETA     &kp A &kp S &kp D      &kp F             &kp G       &kp H     &kp J     &kp K     &kp L   &kp SCLN &kp QUOT
+   &kp LCTRL     &kp Z &kp X &kp C      &kp V             &kp B       &kp N     &kp M     &kp COMMA &kp DOT &kp FSLH &kp MINUS
+                             &mo SYMBOL &lt COMMAND RET   &kp LSHFT   &kp RSHFT &kp SPACE &mo SYMBOL
                         >;
                 };
 
                 symbol {
                         bindings = <
-   &kp DEL    &kp BANG     &kp AT     &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &trans
+   &kp DEL    &kp EXCL     &kp AT     &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &trans
    &trans     &kp N1       &kp N2     &kp N3       &kp N4       &kp N5            &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &trans
    &trans     &kp TILDE    &kp GRAVE  &kp PIPE     &kp BSLH     &trans            &trans    &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans
                                       &trans       &trans       &trans            &trans    &trans    &trans
