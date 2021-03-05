@@ -43,6 +43,7 @@
    &trans &trans    &trans    &trans     &trans       &trans       &kp HOME &kp PG_DN &kp PG_UP  &kp END    &trans       &trans 
                               &trans     &trans       &trans       &trans   &trans    &trans
                         >;
+                };
 
                 function_left {
                         bindings = <
